@@ -21,7 +21,7 @@ public class BancoPichinchaTest {
     @Test
     @Disabled
     void test3 (){
-        assertEquals("Fizz", BancoPichincha.calculate(3));
+        assertEquals("Banco", BancoPichincha.calculate(3));
     }
 
     @Test
@@ -33,13 +33,13 @@ public class BancoPichinchaTest {
     @Test
     @Disabled
     void test5 (){
-        assertEquals("Buzz", BancoPichincha.calculate(5));
+        assertEquals("Pichincha", BancoPichincha.calculate(5));
     }
 
     @Test
     @Disabled
     void test6 (){
-        assertEquals("Fizz", BancoPichincha.calculate(6));
+        assertEquals("Banco", BancoPichincha.calculate(6));
     }
 
     @Test
@@ -57,13 +57,13 @@ public class BancoPichinchaTest {
     @Test
     @Disabled
     void test9 (){
-        assertEquals("Fizz", BancoPichincha.calculate(9));
+        assertEquals("Banco", BancoPichincha.calculate(9));
     }
 
     @Test
     @Disabled
     void test10 (){
-        assertEquals("Buzz", BancoPichincha.calculate(10));
+        assertEquals("Pichincha", BancoPichincha.calculate(10));
     }
 
     @Test
@@ -75,7 +75,7 @@ public class BancoPichinchaTest {
     @Test
     @Disabled
     void test12 (){
-        assertEquals("Fizz", BancoPichincha.calculate(12));
+        assertEquals("Banco", BancoPichincha.calculate(12));
     }
 
     @Test
@@ -93,7 +93,7 @@ public class BancoPichinchaTest {
     @Test
     @Disabled
     void test15 (){
-        assertEquals("FizzBuzz", BancoPichincha.calculate(15));
+        assertEquals("BancoPichincha", BancoPichincha.calculate(15));
     }
 
 }
